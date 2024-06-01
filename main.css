@@ -83,6 +83,10 @@
 .desc p{
     padding: 30px 0px;
 }
+/* end award sectiom */
+
+/* start portfolio section */
+
 .my-portfolio .caption h1{
     font-size: 40px;
     font-weight: 800;
@@ -178,7 +182,167 @@
     margin-right: 50px;
 }
 
+/* end portfolio section */
+
+/* start reach out section */
+.reah-out{
+    align-items: center;
+    
+}
+.reach-out .caption{
+    margin-bottom: 40px;
+}
+.reach-out .caption h4{
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+.what-project{
+    background-color: #34261b;
+    align-items: center;
+    padding: 100px 255px;
+    margin-bottom: 100px;
+}
+.what-project .name-email{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.what-project h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.what-project .name  input{
+    width: 300px;
+    height: 34px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+   
+}
+.what-project .email  input{
+    width: 300px;
+    height: 34px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+}
+.what-project textarea{
+    width: 704px;
+    height: 48px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    background-color: transparent;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+    
+}
+.area-file input{
+    background: transparent;
+    box-sizing: border-box;
+    border: none;
+}
+.area-file h2{
+    background: var(--button-color);
+    padding: 15px 20px;
+    width:fit-content;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 30px;
+}
+.reach-out{
+    padding:0px 
+}
+
+
+/* end reach out */
+
+/* start social media */
+.footer-media{
+    padding: 20px 0px;
+}
+.social-media{
+    background-color: black;
+    text-align: center;
+}
+.social-media h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    color: var(--button-color);
+}
+.social-media .menu-list{
+    display:flex;
+    justify-content: center;
+    gap: 0px 20px;
+    margin: 50px 0px;
+    text-transform: capitalize;
+
+}
+.social-media  i{
+  
+    padding: 10px 15px;
+    font-size:32px;
+    text-transform: capitalize;
+    
+}
+.social-media .fa-facebook-f  {
+    border-radius: 100%;
+    background-color:var(--font-primary-color);
+    color: #343434;
+}
+.social-media .fa-twitter{
+    background: none;
+    color:var(--font-primary-color) ;
+}
+.social-media .fa-instagram{
+    background: none;
+    color:var(--font-primary-color);
+
+}
+.social-media .fa-linkedin-in{
+    color:#343434;
+    background-color:var(--font-primary-color);
+    padding: 5px;
+}
+
+/* end socal media */
+
+/* start copyright */
+.copyright{
+    text-align: center;
+    padding: 40px ;
+    font-size: 21px;
+    font-weight: 400;
+    
+}
+.copyright a{
+    text-decoration: none;
+    color: var(--button-color);
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 35px;
+}
+/* end copyright */
 @media only screen and (min-width:200px) and (max-width:600px){
+
     .about{
         flex-direction: column;
         align-items: center;
@@ -204,6 +368,9 @@
     .award-time {
         flex-direction: column;
     }
+    .my-portfolio {
+        align-items: center;
+    }
     .my-portfolio .web-design{
         flex-direction: column;
         text-align: center;
@@ -215,8 +382,60 @@
 }
 .my-portfolio .button a{
     display: none;
+} 
+.web-design{
+    flex-direction: column;
 }
 .web-design .image::after{
     display: none;
+}
+.web-design .landing-page::after{
+    display: none;
+}
+.web-design .black-background{
+    width: fit-content;
+
+}
+.reach-out{
+    display: grid;
+    justify-content: center;
+}
+.what-project{
+      text-align: center;
+    width: auto;
+    margin-bottom:10px;
+    padding: 0px 20px;
+}
+.what-project h1{
+    font-size: 30px;
+}
+.name-email{
+    display: flex;
+    flex-direction: column;
+}
+.area-file{
+    display:grid;
+    grid-template-columns:auto;
+    padding:0px 0px;
+    
+}
+.area-file textarea{
+    width: fit-content;
+}
+.area-file h2{
+    padding:10px 10px;
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+}
+.social-media .menu-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px 0px;
+}
+.copyright-section{
+    width: auto;
 }
 }

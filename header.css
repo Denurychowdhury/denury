@@ -68,8 +68,9 @@ button{
     border-radius: 50px;
     padding: 10px 20px;
     margin: 5px 10px;
-
+    transition: .4s;
 }
+
 .hire-button{
     display: flex;
     gap: 20px;
@@ -81,6 +82,7 @@ button{
     margin-bottom: 30px;
     margin-top: 30px;
 }
+
 .check-icon{
     height: 22px;
     width: 22px;
@@ -125,6 +127,7 @@ button{
     padding: 30px;
     rotate: -8deg;
     width: fit-content;
+    gap: 20px 0px;
 
 }
 .rotate-section .ux{
@@ -191,4 +194,6 @@ button{
     .rotate-section{
         display: none;
     }
+    
+    
 }
