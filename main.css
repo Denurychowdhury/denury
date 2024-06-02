@@ -393,7 +393,7 @@
     display: none;
 }
 .web-design .black-background{
-    width: fit-content;
+    width:100%;
 
 }
 .reach-out{
@@ -401,10 +401,10 @@
     justify-content: center;
 }
 .what-project{
-      text-align: center;
-    width: auto;
-    margin-bottom:10px;
-    padding: 0px 20px;
+    text-align: center;
+    /* width: auto; */
+    margin-bottom: 10px;
+    padding: 0px 0px;
 }
 .what-project h1{
     font-size: 30px;
@@ -412,6 +412,7 @@
 .name-email{
     display: flex;
     flex-direction: column;
+    
 }
 .area-file{
     display:grid;
